@@ -5,4 +5,16 @@
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 		
+	<!-- <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller" id="marshaller">
+		<property name="contextPath" value="hello.wsdl"></property>
+	</bean>
+	
+	<bean class="com.gno.test.client.WeatherClient" id="weatherClient">
+		<property name="defaultUri" value="http://ws.cdyne.com/WeatherWS"></property>
+		<property name="marshaller" ref="marshaller"></property>
+		<property name="unmarshaller" ref="marshaller"></property>
+	</bean> -->
+	
+	<!-- <bean class="kr.co.auction.www.APIv1.ShoppingService.ShoppingServiceSoapStub"></bean> -->
+	
 </beans>
